@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 3rem;
+  background-color: #0a0a23;
+  
+}
+
+.search-box {
+  width: 32vw;
+  background-color: #3b3b4f;
+  margin: 0.6rem;
+  position: absolute;
+  height: 1.8rem;
+  
+}
+
+.search-input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin: 0.6rem;
+  height: 1.5rem;
+  width: 30vw;
+  position: relative;
+}
+
+.search-input:focus {
+  outline-color: #0b57d0;
+}
